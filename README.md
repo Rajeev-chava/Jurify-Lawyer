@@ -21,7 +21,7 @@ Jurify is a full-stack **MERN** web application designed to automate and streaml
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/jurify.git
+   git clone https://github.com/String-slicer/JURIFY.git
    ```
 
 2. Navigate to the project directory:
