@@ -1,71 +1,20 @@
+# JURIFY
 
-# **Jurify - Lawyer Management System**
+JURIFY is a full-stack web application built using React, Tailwind CSS, Node.js, and Express.  
+This is my customized version based on the original open-source idea.
 
-Jurify is a full-stack **MERN** web application designed to automate and streamline lawyer-client interactions. The system allows clients to book appointments online, automates scheduling, and reduces the need for manual intervention, offering an efficient and user-friendly solution for legal professionals.
+## 👨‍💻 Developed by
+**Chava Rajeev**  
+📧 22jr5a1207@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/chavarajeev)  
+🔗 [GitHub](https://github.com/Rajeev-chava)
 
-## **Features**
+## 📝 Credits
+This project was originally created by [String-slicer](https://github.com/String-slicer).  
+I’ve modified and uploaded it for learning and showcasing purposes.
 
-- **Client Management**: Manage client data, automate appointment scheduling, and handle client interactions efficiently.
-- **Appointment Scheduling**: Automates appointment bookings and notifications to clients and lawyers.
-- **User Authentication**: Secure user authentication and authorization for both clients and lawyers.
-- **Responsive Interface**: A user-friendly and responsive design that enhances user experience on various devices.
-
-## **Technologies Used**
-
-- **Frontend**: React, Tailwind CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Version Control**: Git
-
-## **Installation**
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/String-slicer/JURIFY.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd jurify
-   ```
-
-3. Install dependencies for the backend:
-   ```bash
-   cd backend
-   npm install
-   ```
-
-4. Install dependencies for the frontend:
-   ```bash
-   cd ../frontend
-   npm install
-   ```
-
-5. Set up environment variables for the backend (e.g., MongoDB URI, JWT secret).
-
-6. Start the backend server:
-   ```bash
-   cd backend
-   npm start
-   ```
-
-7. Start the frontend application:
-   ```bash
-   cd frontend
-   npm start
-   ```
-
-## **Usage**
-
-- Navigate to `http://localhost:3000` in your browser to access the application.
-- Register as a client or lawyer to start managing appointments.
-
-## **Contributing**
-
-Contributions are welcome! Please feel free to submit a pull request or create an issue for any enhancements or bug fixes.
-
-## **License**
-
-This project is licensed under the MIT License.
-
----
+## 🚀 Tech Stack
+- React.js
+- Tailwind CSS
+- Express.js
+- Node.js
