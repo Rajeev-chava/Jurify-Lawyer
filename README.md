@@ -78,7 +78,11 @@ PORT=5000
 <pre>
 npm start
 </pre>
-### 6. Set up the frontend
+### 6. Also Creaate .env file in frontend and add the below one line
+<pre>
+REACT_APP_BACKEND_URL=http://localhost:portNumber
+</pre>
+### 7. Set up the frontend
 <pre>
 cd jurify-frontend
 npm install
@@ -87,8 +91,9 @@ npm start
 
 ---
 
-### Visit: 
-http://localhost:3000
+## Usage
+Navigate to <pre>http://localhost:3000</pre> in your browser to access the application.
+Register as a client or lawyer to start managing appointments.
 
 ---
 
