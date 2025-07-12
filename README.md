@@ -3,6 +3,8 @@
 **Jurify** is a full-stack MERN web application designed to simplify lawyer-client interactions. It provides appointment scheduling, client management, and a responsive user interface — all streamlined for legal professionals.
 
 ---
+🌐 **Live Demo**: [Click Here](https://jurify-lawyer.vercel.app/)
+---
 
 ## 🚀 Features
 
