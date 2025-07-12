@@ -32,16 +32,6 @@
 
 ---
 
-## 📁 Folder Structure
-
-jurify/
-├── jurify-frontend     # React frontend 
-└── jurify-backend      # Node + Express backend
-
-
-
----
-
 ## 🧑‍💻 Developed by
 
 **Chava Rajeev**  
