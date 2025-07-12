@@ -31,6 +31,7 @@
 - dotenv for environment configuration
 
 ---
+
 ```plaintext 
 ## 📁 Folder Structure
 
@@ -51,11 +52,12 @@ jurify/
 ---
 
 ## ⚙️ Installation Guide
-```
+
 
 1. Clone the repository 
 
-```
+```bash 
+
 git clone https://github.com/Rajeev-chava/Jurify-Lawyer.git
 
 2. Navigate to directory
@@ -83,8 +85,11 @@ cd jurify-frontend
 npm install
 npm start
 
+---
+
 Visit: http://localhost:3000
 
+---
 
 ## 📌 Notes
 - .env files are excluded from version control via .gitignore for security
@@ -92,6 +97,8 @@ Visit: http://localhost:3000
 - Replace your_mongodb_url_here with your actual MongoDB connection string
 
 - Ensure the backend runs on port 5000 or update the proxy in jurify-frontend/package.json if needed.
+
+---
 
 ## 🪪 License
 This project is licensed under the MIT License.
