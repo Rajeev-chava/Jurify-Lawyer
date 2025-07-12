@@ -59,6 +59,8 @@ jurify/
 
 git clone https://github.com/Rajeev-chava/Jurify-Lawyer.git
 
+```plaintext
+
 2. Navigate to directory
 
 cd jurify Lawyer
