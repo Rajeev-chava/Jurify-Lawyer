@@ -1,47 +1,56 @@
-import React from 'react'
+import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import Cookies from 'universal-cookie';
-const cookies=new Cookies();
-function LawyerList({result,setActive}) {
-console.log(result._id)
+
+const cookies = new Cookies();
+
+function LawyerList({ result }) {
+  console.log(result._id);
+
   return (
-    <div >
-      <Card className='my-3 border-none mx-lg-5 font-[sans] rounded-full bg-white shadow-2xl'>
-        <Card.Body >
-          <Card.Title className='fw-bold capitalize'> Name:{result.fullName}</Card.Title>
+    <div>
+      <Card className='my-3 border-none mx-lg-5 font-[sans] rounded bg-white shadow-2xl'>
+        <Card.Body>
+          <Card.Title className='fw-bold capitalize'>
+            Name: {result.fullName}
+          </Card.Title>
+
           <Card.Text>
-            <span className='fw-bold capitalize'>profession:will</span>
+            <span className='fw-bold capitalize'>
+              Profession: {result.profession || 'N/A'}
+            </span>
           </Card.Text>
+
           <Card.Text>
-            <span className='fw-bold capitalize'>Contact:{result.email}</span>
+            <span className='fw-bold capitalize'>
+              Contact: {result.contact || result.email}
+            </span>
           </Card.Text>
+
           <Card.Text>
-            <span className='fw-bold capitalize'>Location:guntur</span>
+            <span className='fw-bold capitalize'>
+              Location: {result.location || 'Unknown'}
+            </span>
           </Card.Text>
-          <div class="d-flex w-[100%] overflow-hidden ">
-          {/* <Button className='mx-2 my-2 self-center rounded-lg shadow-2xl'>
-            <span>Profile</span>
-          </Button> */}
-          <Link to={`/calendar`} onClick={cookies.set( 'lid',result._id)}>
-                            <Button className='mx-2 my-2 self-center rounded-lg shadow-2xl'>
-                                <span>availability</span>
-                            </Button>
-                        </Link>
-          <Link to={`/booking`} onClick={cookies.set( 'lid',result._id)}>
-                            <Button className='mx-2 my-2 self-center rounded-lg shadow-2xl'>
-                                <span>book</span>
-                            </Button>
-                        </Link>
-         
+
+          <div className="d-flex w-100 overflow-hidden">
+            <Link to="/calendar" onClick={() => cookies.set('lid', result._id)}>
+              <Button className='mx-2 my-2 self-center rounded-lg shadow-2xl'>
+                <span>Availability</span>
+              </Button>
+            </Link>
+            <Link to="/booking" onClick={() => cookies.set('lid', result._id)}>
+              <Button className='mx-2 my-2 self-center rounded-lg shadow-2xl'>
+                <span>Book</span>
+              </Button>
+            </Link>
           </div>
-          
-          
         </Card.Body>
       </Card>
     </div>
-  )
+  );
 }
 
-export default LawyerList
+export default LawyerList;
