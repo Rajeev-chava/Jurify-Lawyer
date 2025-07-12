@@ -54,40 +54,41 @@ jurify/
 
 
 ### 1. Clone the repository 
-
+<pre>
 git clone https://github.com/Rajeev-chava/Jurify-Lawyer.git
-
-
+</pre>
 
 ### 2. Navigate to directory
-
+<pre>
 cd jurify Lawyer
-
+</pre>
 ### 3. Set up the backend
-
+<pre>
 cd jurify-backend
 
 npm install
+</pre>
 
 ### 4. Create a .env file inside jurify-backend:
-
+<pre>
 MONGO_URL="your_mongodb_url_here"
 PORT=5000
-
+</pre>
 ### 5. Start the backend server:
-
+<pre>
 npm start
----
+</pre>
 ### 6. Set up the frontend
-<pre>'''
+<pre>
 cd jurify-frontend
 npm install
 npm start
-'''</pre>
+</pre>
 
 ---
 
-Visit: http://localhost:3000
+### Visit: 
+http://localhost:3000
 
 ---
 
