@@ -32,7 +32,6 @@
 
 ---
 
-```plaintext 
 ## 📁 Folder Structure
 
 jurify/
