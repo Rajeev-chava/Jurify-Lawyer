@@ -39,6 +39,7 @@ jurify/
 └── jurify-backend      # Node + Express backend
 
 
+
 ---
 
 ## 🧑‍💻 Developed by
@@ -91,9 +92,12 @@ npm start
 
 ---
 
-## Usage
-Navigate to <pre>http://localhost:3000</pre> in your browser to access the application.
-Register as a client or lawyer to start managing appointments.
+##  Usage
+
+- Navigate to `http://localhost:3000` in your browser to access the application.
+
+- Register as a **Client** or **Lawyer** to start managing appointments.
+
 
 ---
 
