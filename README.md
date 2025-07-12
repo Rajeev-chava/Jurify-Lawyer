@@ -55,8 +55,6 @@ jurify/
 
 1. Clone the repository 
 
-```bash 
-
 git clone https://github.com/Rajeev-chava/Jurify-Lawyer.git
 
 
